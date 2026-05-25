@@ -1,214 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Rupali Sonawane | Full-Stack Developer</title>
+    <title>Rupali Sonawane — Full-Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-   
+
 </head>
 
-<div class="container">
 
-       <header class="nav">
-    <ul class="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#service">Service</a></li>
+<body>
 
-        <li><a href="#contact">Contact Us</a></li>
-    </ul>
-</header>
-        <h1>Rupali Sonawane</h1>
-        <h2>Full-Stack Developer</h2>
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
 
-        <p>
-            I am a dedicated and results-oriented <span class="highlight">Full-Stack Developer</span> 
-            with hands-on experience in Java and Angular-based application development. 
-            With a strong academic background in MSc Computer Science and industry experience 
-            as a Java Developer Intern and Angular Developer, I have developed and maintained 
-            scalable web applications using modern technologies.
-        </p>
+    <nav>
+        <a href="#home" class="nav-logo">RS.</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#experience">Career</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <p>
-            I have experience working with Java, Spring Boot, Angular 15, Microservices, 
-            MySQL, PostgreSQL, and Oracle, along with frontend technologies such as 
-            TypeScript, HTML, CSS, and JavaScript. I have contributed to building reusable 
-            code libraries, designing database structures, integrating RESTful APIs, 
-            and implementing secure authentication using JWT.
-        </p>
-
-        <p>
-            I am passionate about writing clean, efficient code and continuously learning 
-            new technologies. I am eager to contribute to a growth-oriented organization 
-            where I can enhance my technical expertise and deliver impactful solutions.
-        </p>
-
-           <h2 id="about" class="about-title">About Me</h2>
-
-        <div class="about-content">
-
-            <div class="about-image">
-                <img src="profile.jpg" alt="Rupali Sonavane">
+    <!-- ══════════ HERO ══════════ -->
+    <section id="home">
+        <div class="hero-left">
+            <div class="hero-eyebrow">Full-Stack Developer</div>
+            <h1 class="hero-name">
+                Rupali<br>
+                <em>Sonawane</em>
+            </h1>
+            <p class="hero-title">Crafting resilient systems &amp; elegant interfaces</p>
+            <p class="hero-desc">
+                MSc Computer Science graduate specialising in Java &amp; Angular. I build
+                the full arc — from microservices and Spring Boot APIs to pixel-perfect
+                Angular SPAs — with a relentless focus on performance and clarity.
+            </p>
+            <div class="hero-actions">
+                <a href="resume.pdf" download class="btn-primary">Download CV <span>↓</span></a>
+                <a href="#contact" class="btn-ghost">Get in touch <span>→</span></a>
             </div>
+        </div>
 
-            <div class="about-text">
-                <h3>Hello! I'm Rupali Sonavane </h3>
+        <div class="hero-right">
+            <div class="stat-card reveal">
+                <div class="num">1+</div>
+                <div class="label">Years of experience</div>
+            </div>
+            <div class="stat-card reveal" style="transition-delay:0.1s">
+                <div class="num">11</div>
+                <div class="label">Technologies mastered</div>
+            </div>
+            <div class="stat-card reveal" style="transition-delay:0.2s">
+                <div class="num">∞</div>
+                <div class="label">Passion for clean code</div>
+            </div>
+        </div>
 
+        <div class="hero-divider">Scroll to explore</div>
+    </section>
+
+    <!-- ══════════ ABOUT ══════════ -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-image-wrap reveal">
+                <img src="profile.jpg" alt="Rupali Sonawane">
+            </div>
+            <div class="about-text reveal" style="transition-delay:0.15s">
+                <span class="about-tag">About me</span>
+                <h3>Hello — I'm Rupali.<br>I build things for the web.</h3>
                 <p>
-                    I am a passionate Full-Stack Developer with 1+ year of experience in building 
-                    scalable web applications using Java, Spring Boot, and Angular.
+                    As a Full-Stack Developer with 1+ year of hands-on experience,
+                    I bring together backend rigour and frontend finesse. Since completing
+                    my MSc in Computer Science, I've channelled theory into practice across
+                    API development, responsive UI design, and database optimisation.
                 </p>
-
                 <p>
-                    I completed my MSc in 2021 and have worked on real-world projects including 
-                    backend API development, frontend UI design, and database management.
-                    I enjoy solving complex problems and continuously learning new technologies.
+                    My drive is transforming complex problems into elegant, scalable solutions —
+                    applications that are technologically sound and deliver genuine value.
+                    I'm a continuous learner, constantly exploring new technologies and
+                    best practices.
                 </p>
-
                 <p>
-                    My goal is to build efficient, secure, and user-friendly applications that 
-                    deliver real value to businesses and users.
+                    Beyond code, I'm a collaborative team player who thrives in Agile
+                    environments and values thoughtful, well-documented work.
                 </p>
-
-                <a href="resume.pdf" class="btn" download>Download Resume</a>
-
+                <div class="about-facts">
+                    <div class="fact-item">
+                        <span class="fact-label">Degree</span>
+                        <span class="fact-value">MSc Computer Science</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Specialisation</span>
+                        <span class="fact-value">Java &amp; Angular</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Methodology</span>
+                        <span class="fact-value">Agile / Scrum</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Open to</span>
+                        <span class="fact-value">Full-time roles</span>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <h2 class="section-title">Technical Stack</h2>
+    </section>
 
-<div class="tech-container">
-
-<div class="tech-card">
-<h3>Java</h3>
-<p>Backend development using Core Java and Advanced Java.</p>
-</div>
-
-<div class="tech-card">
-<h3>Spring Boot</h3>
-<p>Building REST APIs and microservices based applications.</p>
-</div>
-
-<div class="tech-card">
-<h3>Angular</h3>
-<p>Creating dynamic frontend applications using Angular framework.</p>
-</div>
-
-<div class="tech-card">
-<h3>MySQL</h3>
-<p>Relational database management and query optimization.</p>
-</div>
-
-<div class="tech-card">
-<h3>PostgreSQL</h3>
-<p>Advanced database management and data storage solutions.</p>
-</div>
-
-<div class="tech-card">
-<h3>JavaScript</h3>
-<p>Interactive web functionality and frontend logic.</p>
-</div>
-
-<div class="tech-card">
-<h3>HTML & CSS</h3>
-<p>Designing responsive and user-friendly web interfaces.</p>
-</div>
-
-<div class="tech-card">
-<h3>Microservices</h3>
-<p>Building scalable and modular application architecture.</p>
-</div>
-
-</div>
-
-    <div id="service" class="section">
-
-        <h2 class="section-title">My Services</h2>
-
-        <div class="tabs">
-            <button class="tab-btn active" onclick="openTab(event, 'fullstack')">Full Stack</button>
-            <button class="tab-btn" onclick="openTab(event, 'frontend')">Frontend</button>
-            <button class="tab-btn" onclick="openTab(event, 'backend')">Backend</button>
-            <button class="tab-btn" onclick="openTab(event, 'database')">Database</button>
+    <!-- ══════════ SKILLS ══════════ -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <span class="section-num">// 02 &nbsp;Technical stack</span>
+            <h2 class="section-title">What I <em>build with</em></h2>
         </div>
-
-        <div id="fullstack" class="tab-content active">
-            <h3>Full Stack Development</h3>
-            <p>I build complete web applications from frontend to backend using modern technologies.</p>
-            <ul>
-                <li>Java & Spring Boot</li>
-                <li>Angular</li>
-                <li>RESTful APIs</li>
-                <li>MySQL & PostgreSQL</li>
-            </ul>
-        </div>
-
-        <div id="frontend" class="tab-content">
-            <h3>Frontend Development</h3>
-            <p>Creating responsive and user-friendly interfaces.</p>
-            <ul>
-                <li>Angular</li>
-                <li>HTML5, CSS3, JavaScript</li>
-                <li>Responsive Design</li>
-                <li>Performance Optimization</li>
-            </ul>
-        </div>
-
-        <div id="backend" class="tab-content">
-            <h3>Backend Development</h3>
-            <p>Building secure and scalable backend systems.</p>
-            <ul>
-                <li>Java</li>
-                <li>Spring Boot</li>
-                <li>Authentication & Authorization</li>
-                <li>API Development</li>
-            </ul>
-        </div>
-
-        <div id="database" class="tab-content">
-            <h3>Database Management</h3>
-            <p>Efficient database design and optimization.</p>
-            <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-                <li>Schema Design</li>
-                <li>Query Optimization</li>
-            </ul>
-        </div>
-    </div>
-     
-        <div class="section" id="contact">
-            <div style="width:100%; display:flex; justify-content:space-between; align-items:center;">
-                <h2 class="contact-title">Contact Me</h2>
-                <a href="mailto:rupali.sonavane@gmail.com" class="btn">Email Me</a> 
-
+        <p class="skills-intro reveal">
+            A curated toolkit refined through real projects. Each technology here
+            represents genuine, production-level experience.
+        </p>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon">&lt;java /&gt;</div>
+                <h3>Java</h3>
+                <p>Core Java, Advanced Java, OOP, Multithreading</p>
             </div>
+            <div class="skill-card reveal" style="transition-delay:0.05s">
+                <div class="skill-icon">@Spring</div>
+                <h3>Spring Boot</h3>
+                <p>RESTful APIs, Microservices, Security, Data JPA, MVC</p>
             </div>
-
-        <footer>
-            © 2026 Rupali Sonawane | Full-Stack Developer
-        </footer>
+            <div class="skill-card reveal" style="transition-delay:0.1s">
+                <div class="skill-icon">&lt;ng&gt;</div>
+                <h3>Angular</h3>
+                <p>v15+, Components, Services, Routing, RxJS, Material</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.15s">
+                <div class="skill-icon">{}JS</div>
+                <h3>JavaScript</h3>
+                <p>ES6+, DOM Manipulation, Async Programming</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.2s">
+                <div class="skill-icon">TS:</div>
+                <h3>TypeScript</h3>
+                <p>Strong Typing, Interfaces, Classes</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.25s">
+                <div class="skill-icon">&lt;/html&gt;</div>
+                <h3>HTML &amp; CSS</h3>
+                <p>HTML5, CSS3, Flexbox, Grid, SASS, Responsive</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.3s">
+                <div class="skill-icon">DB ▸</div>
+                <h3>MySQL</h3>
+                <p>Schema Design, Queries, Optimisation, Stored Procedures</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.35s">
+                <div class="skill-icon">DB ▸</div>
+                <h3>PostgreSQL</h3>
+                <p>Advanced SQL, Transaction Management, Tuning</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.4s">
+                <div class="skill-icon">DB ▸</div>
+                <h3>Oracle</h3>
+                <p>SQL, PL/SQL, Database Administration</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.45s">
+                <div class="skill-icon">⬡⬡⬡</div>
+                <h3>Microservices</h3>
+                <p>Architecture, API Gateway, Service Discovery, Load Balancing</p>
+            </div>
+            <div class="skill-card reveal" style="transition-delay:0.5s">
+                <div class="skill-icon">⚙︎ ops</div>
+                <h3>Tools &amp; Concepts</h3>
+                <p>Git, Postman, JWT, Agile/Scrum, CI/CD basics</p>
+            </div>
         </div>
-        
+    </section>
 
+    <!-- ══════════ SERVICES ══════════ -->
+    <section id="services">
+        <div class="section-header reveal">
+            <span class="section-num">// 03 &nbsp;Expertise</span>
+            <h2 class="section-title">What I <em>deliver</em></h2>
+        </div>
+        <div class="services-layout reveal">
+            <div class="tab-nav">
+                <button class="tab-btn-new active" onclick="switchTab(event,'fullstack')">Full-Stack Dev</button>
+                <button class="tab-btn-new" onclick="switchTab(event,'frontend')">Frontend</button>
+                <button class="tab-btn-new" onclick="switchTab(event,'backend')">Backend</button>
+                <button class="tab-btn-new" onclick="switchTab(event,'database')">Databases</button>
+            </div>
+            <div>
+                <div id="fullstack" class="tab-panel active">
+                    <h3>End-to-End Web Applications</h3>
+                    <p>Comprehensive full-stack solutions covering resilient backend architectures and intuitive
+                        frontend experiences.</p>
+                    <ul>
+                        <li>Integrated Java, Spring Boot, and Angular for scalable applications</li>
+                        <li>Designed and implemented secure RESTful API integrations</li>
+                        <li>Managed diverse database systems — MySQL, PostgreSQL, Oracle</li>
+                        <li>Ensured seamless deployment and cross-platform compatibility</li>
+                    </ul>
+                </div>
+                <div id="frontend" class="tab-panel">
+                    <h3>Dynamic, Responsive Interfaces</h3>
+                    <p>Engaging, high-performance interfaces that prioritise user experience and visual clarity.</p>
+                    <ul>
+                        <li>Developed feature-rich SPAs using Angular v15+ and TypeScript</li>
+                        <li>Modern UI/UX with HTML5, CSS3, and ES6+ JavaScript</li>
+                        <li>Responsive and adaptive layouts for all device sizes</li>
+                        <li>Optimised frontend performance for faster load times</li>
+                    </ul>
+                </div>
+                <div id="backend" class="tab-panel">
+                    <h3>Robust, Scalable Backend Systems</h3>
+                    <p>Secure, high-performance backend services supporting complex business logic at scale.</p>
+                    <ul>
+                        <li>Engineered APIs with Java and Spring Boot for reliability</li>
+                        <li>Implemented secure auth and authorisation protocols (JWT)</li>
+                        <li>Designed microservices architectures for enhanced scalability</li>
+                        <li>Integrated external services while maintaining data integrity</li>
+                    </ul>
+                </div>
+                <div id="database" class="tab-panel">
+                    <h3>Efficient Database Design</h3>
+                    <p>Robust database solutions with efficient schema design, data integrity, and query optimisation.
+                    </p>
+                    <ul>
+                        <li>Designed relational schemas for MySQL, PostgreSQL, and Oracle</li>
+                        <li>Wrote and optimised complex SQL queries and stored procedures</li>
+                        <li>Managed database migrations and ensured data consistency</li>
+                        <li>Implemented data security best practices throughout</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ PROJECTS ══════════ -->
+    <section id="projects">
+        <div class="section-header reveal">
+            <span class="section-num">// 04 &nbsp;Featured work</span>
+            <h2 class="section-title">Selected <em>projects</em></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-thumb">
+                    <img src="project1_thumbnail.jpg" alt="Project One"
+                        onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\'>01</div>'">
+                </div>
+                <div class="project-body">
+                    <span class="project-num">Project 01</span>
+                    <h3>Project Title One</h3>
+                    <p>Developed an e-commerce platform / task management system using Spring Boot and Angular with
+                        JWT-secured APIs and a MySQL data layer.</p>
+                    <div class="pills">
+                        <span class="pill">Spring Boot</span>
+                        <span class="pill">Angular</span>
+                        <span class="pill">MySQL</span>
+                        <span class="pill">JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">View Live <span class="arr">→</span></a>
+                        <a href="#" target="_blank">GitHub <span class="arr">→</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal" style="transition-delay:0.12s">
+                <div class="project-thumb">
+                    <img src="project2_thumbnail.jpg" alt="Project Two"
+                        onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\'>02</div>'">
+                </div>
+                <div class="project-body">
+                    <span class="project-num">Project 02</span>
+                    <h3>Project Title Two</h3>
+                    <p>Designed and deployed a real-time data dashboard featuring microservices architecture,
+                        PostgreSQL, and a responsive Angular frontend.</p>
+                    <div class="pills">
+                        <span class="pill">Java</span>
+                        <span class="pill">Microservices</span>
+                        <span class="pill">PostgreSQL</span>
+                        <span class="pill">Angular</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">View Live <span class="arr">→</span></a>
+                        <a href="#" target="_blank">GitHub <span class="arr">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ EXPERIENCE ══════════ -->
+    <section id="experience">
+        <div class="section-header reveal">
+            <span class="section-num">// 05 &nbsp;Career</span>
+            <h2 class="section-title">Professional <em>experience</em></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">Jan 2023 — Present</div>
+                <h3>Angular Developer</h3>
+                <h4>[Company Name] · [City, State]</h4>
+                <ul>
+                    <li>Developed and maintained dynamic enterprise UIs using Angular 15</li>
+                    <li>Collaborated with UX/UI designers to translate wireframes into pixel-perfect, responsive pages
+                    </li>
+                    <li>Integrated RESTful APIs, optimising data flow and frontend–backend communication</li>
+                    <li>Contributed to component library development, improving code reusability by 20%</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal" style="transition-delay:0.15s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">Jul 2022 — Dec 2022</div>
+                <h3>Java Developer Intern</h3>
+                <h4>[Company Name] · [City, State]</h4>
+                <ul>
+                    <li>Assisted in backend service development using Java and Spring Boot</li>
+                    <li>Implemented API endpoints and designed database schemas in MySQL</li>
+                    <li>Gained hands-on experience in debugging, testing, and deploying web applications</li>
+                    <li>Participated in Agile sprint planning and daily stand-ups</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ EDUCATION ══════════ -->
+    <section id="education">
+        <div class="section-header reveal">
+            <span class="section-num">// 06 &nbsp;Education</span>
+            <h2 class="section-title">Academic <em>foundation</em></h2>
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card reveal">
+                <div class="edu-icon">M</div>
+                <h3>Master of Science in Computer Science</h3>
+                <h4>[University Name] · [City, State]</h4>
+                <p>Graduated [Month, Year] · [Relevant Coursework or Thesis Topic]</p>
+            </div>
+            <div class="edu-card reveal" style="transition-delay:0.1s">
+                <div class="edu-icon">B</div>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <h4>[University Name] · [City, State]</h4>
+                <p>Graduated [Month, Year] · [Relevant Coursework or Projects]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ CONTACT ══════════ -->
+    <section id="contact">
+        <div class="contact-big reveal">
+            Let's<br><em>work together</em>
+        </div>
+        <p class="contact-sub reveal">
+            I'm always open to new opportunities, collaborations, and conversations
+            about interesting problems worth solving.
+        </p>
+        <div class="contact-links reveal">
+            <a href="mailto:rupali.sonavane@gmail.com" class="btn-primary">Email me →</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn-ghost">LinkedIn →</a>
+            <a href="https://github.com/yourprofile" target="_blank" class="btn-ghost">GitHub →</a>
+        </div>
+    </section>
+
+    <footer>
+        <span class="footer-logo">RS.</span>
+        <span>© 2026 Rupali Sonawane · Full-Stack Developer</span>
+        <span>Nashik, Maharashtra</span>
+    </footer>
+
+    <script>
+        /* --- Custom cursor --- */
+        const cur = document.getElementById('cursor');
+        const ring = document.getElementById('cursor-ring');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+        (function animCursor() {
+            rx += (mx - rx) * 0.18; ry += (my - ry) * 0.18;
+            cur.style.left = mx + 'px'; cur.style.top = my + 'px';
+            ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+            requestAnimationFrame(animCursor);
+        })();
+        document.querySelectorAll('a, button').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cur.style.width = '20px'; cur.style.height = '20px'; cur.style.opacity = '0.5';
+                ring.style.width = '56px'; ring.style.height = '56px';
+            });
+            el.addEventListener('mouseleave', () => {
+                cur.style.width = '10px'; cur.style.height = '10px'; cur.style.opacity = '1';
+                ring.style.width = '36px'; ring.style.height = '36px';
+            });
+        });
+
+        /* --- Scroll reveal --- */
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        /* --- Tab switching --- */
+        function switchTab(evt, id) {
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn-new').forEach(b => b.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
 </body>
-<script>
-function openTab(evt, tabName) {
-    let i, tabcontent, tabbtn;
 
-    tabcontent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].classList.remove("active");
-    }
-
-    tabbtn = document.getElementsByClassName("tab-btn");
-    for (i = 0; i < tabbtn.length; i++) {
-        tabbtn[i].classList.remove("active");
-    }
-
-    document.getElementById(tabName).classList.add("active");
-    evt.currentTarget.classList.add("active");
-}
-</script>
 </html>
